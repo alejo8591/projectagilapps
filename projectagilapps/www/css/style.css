@@ -1,3 +1,13 @@
+#header{
+	font-family: Englebert;
+	background-color: #0B4C5F;
+	
+}
 div div p{
 	text-align: center;
+}
+
+#footer{
+	font-family: Segoe UI;
+	background-color: #0B4C5F;
 }

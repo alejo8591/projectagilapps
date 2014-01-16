@@ -1,3 +1,14 @@
+*{
+	font-family: 'Monda', sans-serif;
+}
+#header{
+	background-color: #0B4C5F;
+	
+}
 div div p{
 	text-align: center;
+}
+
+#footer{
+	background-color: #0B4C5F;
 }

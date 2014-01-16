@@ -1,5 +1,7 @@
+*{
+	font-family: 'Monda', sans-serif;
+}
 #header{
-	font-family: Englebert;
 	background-color: #0B4C5F;
 	
 }
@@ -8,6 +10,5 @@ div div p{
 }
 
 #footer{
-	font-family: Segoe UI;
 	background-color: #0B4C5F;
 }

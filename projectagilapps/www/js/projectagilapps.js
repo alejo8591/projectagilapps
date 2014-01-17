@@ -12,7 +12,5 @@ $(document).ready(function(){
 		window.sessionStorage.setItem("confirmemail", confirmemail);
 		window.sessionStorage.setItem("password", password);
 		window.sessionStorage.setItem("confirmpassword", confirmpassword);
-		
 	});
-
 });

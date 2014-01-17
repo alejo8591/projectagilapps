@@ -50,9 +50,7 @@ var app = {
 function alertDismissed() {
             // do something
         }
-
-    // Show a custom alertDismissed
-    //
+        
     function showAlert() {
         navigator.notification.alert(
             'Por favor Verifique los datos!',  // message
@@ -61,4 +59,3 @@ function alertDismissed() {
             'Aceptar'                  // buttonName
         );
     }
-

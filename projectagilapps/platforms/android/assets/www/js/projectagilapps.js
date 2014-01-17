@@ -7,11 +7,19 @@ $(document).ready(function(){
 		var confirmpassword = $('#confirmpassword').val();
 
 
-		window.sessionStorage.setItem("username", username);
-		window.sessionStorage.setItem("email", email);
-		window.sessionStorage.setItem("confirmemail", confirmemail);
-		window.sessionStorage.setItem("password", password);
-		window.sessionStorage.setItem("confirmpassword", confirmpassword);
+		window.localStorage.setItem("username", username);
+		window.localStorage.setItem("email", email);
+		window.localStorage.setItem("confirmemail", confirmemail);
+		window.localStorage.setItem("password", password);
+		window.localStorage.setItem("confirmpassword", confirmpassword);
 	});
 
+	$('#submit1').bind('click', function(){
+		
+		var email1 = $('#email1').val();
+		var pass = $('#pass').val();
+		
+		window.sessionStorage.setItem("email1", email1);
+		window.sessionStorage.setItem("pass", pass);
+	});
 });

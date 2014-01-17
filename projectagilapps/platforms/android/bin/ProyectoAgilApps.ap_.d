@@ -253,6 +253,7 @@ c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\js\jque
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\js\jquery.mobile-1.4.0.min.js \
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\js\jquery.mobile-1.4.0.min.map \
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\js\projectagilapps.js \
+c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\js\validate.js \
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\plugins\org.apache.cordova.dialogs \
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\plugins\org.apache.cordova.vibration \
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\plugins\org.apache.cordova.dialogs\www \

@@ -25,7 +25,7 @@
             </div>
 
             <div data-role="content">
-            <form  id="form" onsubmit="return">
+            <form  id="form">
                 <label>Nombre y Apellido: </label>
                 <input type="text" id="username">
                 <label>E-mail: </label>
@@ -36,7 +36,7 @@
                 <input type="password" id="password">
                 <label>Confirme su contraseña: </label>
                 <input type="password" id="confirmpassword">
-                <p><input type="submit" value="Enviar" data-inline="true" id="submit"></p>   
+                <p><input type="submit" value="Enviar" data-inline="true" id="submit" onclick="showAlert(); return false;"></p>   
             </form>   
             </div>
 

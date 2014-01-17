@@ -7,55 +7,19 @@ $(document).ready(function(){
 		var confirmpassword = $('#confirmpassword').val();
 
 
-		window.sessionStorage.setItem("username", username);
-		window.sessionStorage.setItem("email", email);
-		window.sessionStorage.setItem("confirmemail", confirmemail);
-		window.sessionStorage.setItem("password", password);
-		window.sessionStorage.setItem("confirmpassword", confirmpassword);
+		window.localStorage.setItem("username", username);
+		window.localStorage.setItem("email", email);
+		window.localStorage.setItem("confirmemail", confirmemail);
+		window.localStorage.setItem("password", password);
+		window.localStorage.setItem("confirmpassword", confirmpassword);
 	});
 
-	$("#form").validate({
-		        rules: {
-		                username: {
-		                        required: true,
-		                        maxlength: 28,
-		                        minlength: 10
-		                },
-		                email: {
-			                required: true,
-			                email: true
-		                },
-		                confirmemail: {
-			                required: true,
-			                email:true
-			               
-		                },
-		                password: {
-		                        required: true,
-		                        number: true,
-		                        maxlength: 30,
-		                        minlength: 8
-		                },
-		                confirmpassword:{
-		                	  required:true,
-		                	  number: true,
-		                        maxlength: 30,
-		                        minlength: 8
-		                }
-		        }
-		});
-
+	$('#submit1').bind('click', function(){
+		
+		var email1 = $('#email1').val();
+		var pass = $('#pass').val();
+		
+		window.sessionStorage.setItem("email1", email1);
+		window.sessionStorage.setItem("pass", pass);
+	});
 });
-
-function alertDismissed() {
-            // do something
-        }
-        
-    function showAlert() {
-        navigator.notification.alert(
-            'Por favor Verifique los datos!',  // message
-            alertDismissed,         // callback
-            'Error de Autenticación',            // title
-            'Aceptar'                  // buttonName
-        );
-    }

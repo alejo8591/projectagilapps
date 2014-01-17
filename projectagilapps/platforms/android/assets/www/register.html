@@ -25,16 +25,19 @@
             </div>
 
             <div data-role="content">
-                <p>Ingresa tus datos para poder Registrarte</p>
-                <p>Ingrese su nombre</p>
-                <p><input type="text" id="myName"></p>
-                <p>Ingrese su e-mail: </p>
-                <p><input type="text" id="myEmail"></p>
-                <p>Ingrese su clave: </p>
-                <p><input type="password" id="myPassword"></p>
-                <p>Confirme su clave: </p>
-                <p><input type="password" id="myPassword2"></p>
-                <p><a href="dashboard.html" data-role="button" data-inline="true" id="buttonMyName">Registro</a> </p>      
+            <form action="" method="">
+                <label>Nombre y Apellido: </label>
+                <input type="text" id="username">
+                <label>E-mail: </label>
+                <input type="text" id="email">
+                <label>Confirme su e-mail: </label>
+                <input type="text" id="confirmemail">
+                <label>Contraseña: </label>
+                <input type="password" id="password">
+                <label>Confirme su contraseña: </label>
+                <input type="password" id="confirmpassword">
+                <p><input type="submit" value="Enviar" data-inline="true" id="submit" onclick="showAlert(); return false;"></p>   
+            </form>   
             </div>
 
             <div data-role="footer" data-position="fixed" data-theme= "b" id="footer">

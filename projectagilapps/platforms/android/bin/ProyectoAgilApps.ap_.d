@@ -22,6 +22,8 @@ c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\index.h
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\js \
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\login.html \
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\myprofile.html \
+c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\plugins \
+c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\recoverpassword.html \
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\register.html \
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\css\images \
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\css\index.css \
@@ -251,4 +253,12 @@ c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\js\jque
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\js\jquery.mobile-1.4.0.min.js \
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\js\jquery.mobile-1.4.0.min.map \
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\js\projectagilapps.js \
+c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\plugins\org.apache.cordova.dialogs \
+c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\plugins\org.apache.cordova.vibration \
+c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\plugins\org.apache.cordova.dialogs\www \
+c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\plugins\org.apache.cordova.dialogs\www\android \
+c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\plugins\org.apache.cordova.dialogs\www\notification.js \
+c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\plugins\org.apache.cordova.dialogs\www\android\notification.js \
+c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\plugins\org.apache.cordova.vibration\www \
+c:\wamp\www\projectagilapps\projectagilapps\platforms\android\assets\www\plugins\org.apache.cordova.vibration\www\vibration.js \
 c:\wamp\www\projectagilapps\projectagilapps\platforms\android\bin\AndroidManifest.xml \

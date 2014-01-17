@@ -47,3 +47,18 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+function alertDismissed() {
+            // do something
+        }
+
+    // Show a custom alertDismissed
+    //
+    function showAlert() {
+        navigator.notification.alert(
+            'Por favor Verifique los datos!',  // message
+            alertDismissed,         // callback
+            'Error de Autenticación',            // title
+            'Aceptar'                  // buttonName
+        );
+    }
+

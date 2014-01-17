@@ -25,11 +25,15 @@
             </div>
 
             <div data-role="content" id="content">
-                    <p>Ingrese su e-mail: </p>
+            <form action="" method="">
+                    <label>email</label>
                     <p><input type="text" id="myEmail"></p>
-                    <p>Ingrese su clave: </p>
+                    <label>Clave</label>
                     <p><input type="password" id="myPassword"></p>
-                    <p><a href="dashboard.html" data-role="button" data-inline="true" id="buttonMyName">Iniciar Sesion</a> </p>    
+                    <p><a href="recoverpassword.html">recuperar clave</a></p>
+                    <p><input type="submit" value="Enviar" data-inline="true" id="submit" onclick="showAlert(); return false;"></p> 
+                    <p><a href="register.html" data-role="button" data-inline="true" id="buttonMyName">Registrarme</a> </p>  
+            </form>
             </div>
 
             <div data-role="footer" data-position="fixed" data-theme= "b" id="footer">
